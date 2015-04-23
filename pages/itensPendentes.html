@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fiergs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" type="text/css">
+    </head>
+    <body>
+        <section data-role="page" id="pagItens">
+            <div class="iphone-tollbar"></div>
+            <div class="list-buttons">
+                <span class="itens-selecteds"><span class="itens-number-selecteds"></span></span>
+                <div class="buttons-main">
+                    <span id="btnAprovar" class="btn-aprovar" onclick="confirmaAprovacao(this);">APROVAR</span>
+                    <span id="btnReprovar" class="btn-reprovar" onclick="confirmaReprovacao(this);">REPROVAR</span>
+                </div>
+            </div>
+            <div class="container">
+                <header>
+                    <img src="../css/images/icons-png/logo.png" class="logo" alt="">
+                </header>
+                <div class="box-list">
+                    <h3 id="tipoItem"> </h3>
+                    <input class="box-input-search" id="lstItens" data-type="search" data-filter-placeholder="Procurar" />
+
+                    <p class="msg-empty">Nenhum item pendente de aprovação.</p>
+
+                    <a class="select-all" onclick="checkAll()">Marcar todos</a>
+
+                    <table data-role="listview" data-filter="true" data-input="#lstItens" class="ui-responsive" id="list">
+                        <tbody>
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+            <div class="btn-group">
+                <input type="button" class="btn-primary" value="CANCELAR" onclick="$.mobile.back()">
+            </div>
+        </section>
+    </body>
+</html>

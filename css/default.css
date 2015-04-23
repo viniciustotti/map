@@ -1,0 +1,615 @@
+
+header {
+    text-align: center !important;
+    margin-top: 20px;
+}
+
+
+/*small mobile*/
+@media ( max-width : 380px) {
+    .logo {
+        max-width: 99%;
+    }
+
+    .line-table {
+        font-size: 88%;
+        width: 100%;
+        float: left;
+        padding: 15px 0 !important;
+    }
+
+    .line-table p {
+        float: left;
+        margin: 0;
+        width: 85%;
+    }
+
+    .ui-check {
+        float: left;
+        width: 30px;
+        margin-top: 8px;
+        margin-left: 2px;
+    }
+
+    .box-details label {
+        text-align: left;
+        width: 100%;
+        float: left;
+        padding-top: 8px;
+        font-size: 88%;
+    }
+
+    .box-details .ui-input-text {
+        width: 100%;
+        background: #FFF;
+        border: 1px solid #CCC;
+        float: left;
+    }
+
+    .ui-field-contain {
+        border: none;
+        float: left;
+        width: 100%;
+        padding: 2px 0;
+    }
+
+    .input-no-padding {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .error-warning {
+        left: -2px !important;
+        padding-right: 4px !important;
+    }
+
+    #list tr {
+        padding: 0 !important;
+    }
+
+    #list tr td {
+        padding: 0 !important;
+    }
+}
+
+@media ( min-width : 350px) and (max-width: 500px) {
+    .box-details label {
+        width: 100%;
+    }
+
+    .box-details .ui-input-text {
+        width: 100% !important;
+    }
+
+    .list-buttons {
+        padding-bottom: 5px!important;
+    }
+}
+
+@font-face {
+    font-family: "Humanst531 BT";
+    src: local('hum531bd'), local('hum531bd'), url("../fonts/hum531bd.ttf");
+}
+
+body {
+    font-size: 13px;
+    background: #D6D6D6 !important;
+    position: relative;
+}
+
+.ui-page {
+    background: #D6D6D6 !important;
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    padding: 16% 4%;
+    padding-top: 2% !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5;
+}
+
+@media ( min-width : 320px) and (max-width: 568px) {
+    .container {
+        padding: 18% 4% !important;
+        padding-top: 2% !important;
+    }
+
+    .list-buttons {
+        padding-bottom: 5px!important;
+    }
+}
+
+.box-list {
+    width: auto;
+    margin-bottom: 80px;
+}
+
+h3 {
+    margin-bottom: 1%;
+    color: #666666;
+    font-size: 100%;
+}
+
+.input-search {
+    padding: 0 35px !important;
+}
+
+.box-input-search {
+    position: relative;
+}
+
+.box-input-search .ui-icon-search {
+    position: absolute;
+    left: 0;
+    top: 51%;
+}
+
+.box-input-search .ui-icon-delete {
+    position: absolute;
+    right: 0;
+    top: 51%;
+    height: auto !important;
+    padding: 10px 0 !important;
+}
+
+.ui-checkbox {
+    float: left;
+    width: 35px;
+}
+
+.line-table {
+    float: left;
+    padding: 8px 0px;
+    text-shadow: none !important;
+    width: 100%;
+}
+
+.line-table p {
+    width: 80%;
+    float: left;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.msg-empty {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 100%;
+    display: none;
+}
+
+.msg-logout {
+    color: red;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 100%;
+    display: none;
+}
+
+#list {
+    width: 100%;
+}
+
+#list tr {
+    color: #6C6C6C;
+    background: #C9C9C7;
+    border-bottom: 1px solid #FFF;
+    padding: 3px 0;
+    width: 100%;
+    float: left;
+}
+
+#list tr td {
+    width: 100%;
+    float: left;
+}
+
+#list th {
+    background: #95978A;
+}
+
+#list tr.striped {
+    background: #EAEAEA;
+}
+
+/*small mobile*/
+@media ( max-width : 370px) {
+    .logo {
+        width: 100% !important;
+    }
+
+    .line-table {
+        font-size: 88%;
+    }
+
+    .ui-checkbox {
+        float: left;
+        width: 30px;
+    }
+}
+
+ul.box-menu li {
+    width: 100% !important;
+}
+/*Sobrescreve classes do jquery mobile */
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+    background: #302F52;
+    color: #FFF;
+    text-shadow: none;
+    border: none;
+    height: 15px;
+    padding: 0px;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 23px;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.btn-group {
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background: #302F52;
+    z-index: 99;
+    text-align: center;
+}
+
+.ui-btn ui-input-btn ui-corner-all ui-shadow {
+    width: 100%;
+    height: 70px;
+    background: #302F52;
+    color: #FFF;
+    text-align: center;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited, .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
+    background: #302F52;
+    color: #FFF;
+    text-shadow: none;
+    border: none !important;
+    height: 10px;
+    padding: 0px;
+    margin: 0;
+    margin-top: 4px;
+    box-shadow: none;
+    margin-bottom: 23px;
+    text-shadow: none !important;
+}
+
+.ui-input-search.ui-input-has-clear .ui-btn.ui-input-clear, .ui-input-text.ui-input-has-clear .ui-btn.ui-input-clear {
+}
+
+
+
+.line-selected {
+    background: #8DCADE !important;
+}
+
+.error-warning {
+    width: 25px;
+    padding-top: 0px;
+    height: 25px;
+    margin-top: 0px;
+    float: left;
+    margin-left: 9px;
+    margin-right: 8px;
+}
+
+.list-buttons {
+    position: fixed;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: #E9E9E9;
+    padding-right: 30px;
+    z-index: 99;
+}
+
+.list-buttons .checkall {
+    width: 30px;
+}
+
+.list-buttons .divider {
+    font-size: 33px;
+    FLOAT: LEFT;
+    position: relative;
+    top: -14px;
+    color: #666;
+    left: 14px;
+}
+
+.list-buttons .itens-selecteds {
+    FLOAT: LEFT;
+    margin-left: 7px;
+    margin-top: 2px;
+    font-size: 105%;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    border-radius: 0;
+}
+
+.logoff {
+    float: right;
+    margin-top: 19px;
+    margin-right: 9px;
+    font-size: 122%;
+}
+
+.ui-input-text {
+    border: none !important;
+}
+
+.buttons-main {
+    position: relative;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.select-all {
+    display: none;
+    height: 30px;
+    vertical-align: central;
+    text-align: center;
+    padding: 8px 0;
+    float: left;
+    margin-left: 2px;
+}
+
+.buttons-main .ui-icon-check {
+    position: relative;
+    left: -45px;
+    top: 0;
+}
+
+.buttons-main .ui-icon-check:after {
+    background-color: #339933 !important;
+    color: #FFF;
+}
+
+.buttons-main .ui-icon-delete:after {
+    background-color: #FF0000 !important;
+    color: #FFF;
+}
+
+.buttons-main .btn-aprovar, .buttons-main .btn-reprovar {
+    PADDING: 5px;
+    color: #FFF;
+}
+
+.buttons-main .btn-aprovar {
+    background: #84BE6A;
+}
+
+.buttons-main .btn-reprovar {
+    background: #c30;
+}
+
+
+/*MENU*/
+
+/*MENU*/
+ul.box-menu {
+    font-family: "Humanst531 BT";
+    background: #95978A;
+    width: 99%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+ul.box-menu li {
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 94.5%;
+    border-bottom: 1px solid #FFF;
+    font-weight: lighter;
+}
+
+ul.box-menu li:first-child {
+    border-top: 1px solid #FFF;
+}
+
+ul.box-menu li a, ul.box-menu li a:active, ul.box-menu li a:hover {
+    margin: 15px;
+    float: left;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*DETAILS*/
+
+.box-details {
+    float: left;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.box-details label {
+    text-align: left;
+    font-size: 90%;
+}
+
+.box-details textarea {
+    width: 100%;
+    height: 40px;
+    float: left;
+    resize: none !important;
+}
+
+/* POP UP */
+.pop.in {
+    border: 1px solid #CCC !important;
+    border-radius: 0 !important;
+}
+
+.ui-simpledialog-subtitle {
+    padding: 40px !important;
+    background: #666 !important;
+    margin: 0 !important;
+}
+
+.ui-corner-all > .ui-header:first-child, .ui-corner-all > .ui-content:first-child, .ui-corner-all > .ui-footer:first-child {
+    margin: 0 !important;
+}
+
+.buttons-main .ui-icon-delete:after {
+    background-color: #c30;
+}
+
+.ui-simpledialog-controls {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.ui-header.ui-bar-a a {
+    padding: 6px !important;
+    background: none !important;
+    margin-top: 0 !important;
+}
+
+.ui-simpledialog-controls .ui-btn-icon-left {
+    margin-top: 8px;
+}
+
+.ui-simpledialog-controls a {
+    float: left !important;
+    margin-left: 7px !important;
+    padding: 10px 45px !important;
+}
+
+.btn-primary {
+    padding: 10px 0px;
+}
+
+.ui-btn-icon-right {
+    padding-right: 0px !important;
+}
+
+.ui-field-contain > label {
+    margin: .5em 2% 1% 0;
+}
+
+.box-details .ui-input-text {
+    box-shadow: none;
+    border: 1px solid #B5B4B4;
+}
+
+
+.ui-checkbox, .ui-radio {
+    margin: 0;
+    float: left;
+    width: 42px;
+    clear: both;
+}
+
+.ui-checkbox input, .ui-radio input {
+    position: inherit;
+    width: 32px !important;
+    height: 27px;
+    margin: 0px !important;
+    outline: 0 !important;
+    z-index: 1;
+}
+
+/*BOX-LOGIN*/
+.box-login {
+    position: relative;
+    background: #9999A1;
+    padding: 4%;
+    margin-top: 2%;
+    z-index: 2;
+}
+
+.box-login .btn-login {
+    height: 40px !important;
+}
+
+.box-login h3 {
+    color: #FFF;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited, .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover .btn-login {
+    padding: 10px 0 !important;
+    border-radius: 0 !important;
+    padding-bottom: 9px !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.background-disabled {
+    display: none;
+    background: rgba(0,0,0,0.5);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.fixfixed .list-buttons, .fixfixed .btn-group {
+    position: absolute;
+}
+
+.iphone-tollbar {
+    width: 100%;
+    height: 20px;
+    background: #D6D6D6;
+    display: none;
+    position: fixed;
+}
+
+.padding-button {
+    padding-bottom: 20px !important;
+    height: 20px !important;
+}
+
+#versao {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    z-index: 1;
+}
+
+#list tr td input[type="checkbox"] {
+    display: none;
+}
+
+#list tr td img.fakecheck {
+    max-width: 28px;
+    float: left;
+    margin: 0 8px;
+}
+
+#pagDetalhamento .container {
+margin-top: 30px;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}

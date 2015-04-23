@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fiergs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" type="text/css">
+    </head>
+    <body>
+        <section data-role="page" id="pagDetalhamento">
+            <div class="iphone-tollbar"></div>
+            <div class="list-buttons">
+                <div class="buttons-main">
+                    <span id="btnAprovarItem" class="btn-aprovar" onclick="AprovarReprovarItem('03', this);">APROVAR</span>
+                    <span id="btnReprovarItem" class="btn-reprovar" onclick="AprovarReprovarItem('04', this);">REPROVAR</span>
+                </div>
+            </div>
+            <div class="container">
+                <header>
+                    <img src="../css/images/icons-png/logo.png" class="logo" alt="logo">
+                </header>
+                <h3 id="tipoItemDetalhamento"></h3>
+                <div class="box-details">
+                    <div data-role="fieldcontain">
+                        <label for="" class="input-no-padding">Filial </label>
+                        <input type="text" disabled="disabled" id="filial" class="input">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="" class="input-no-padding">Número do Documento</label>
+                        <input type="text" disabled="disabled" id="numeroDocumento" class="input">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Emissão </label>
+                        <input type="text" class="input" id="emissao" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="" class="input-no-padding">Solicitante </label>
+                        <input type="text" class="input" id="usuarioSolicitante" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Centro de custo </label>
+                        <input type="text" class="input" id="centroCusto" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="" class="input-no-padding">Descrição de custo </label>
+                        <input type="text" class="input" id="descricaoCentroCusto" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="" class="input-no-padding">Item contábil </label>
+                        <input type="text" class="input" id="itemContabil" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Descrição item contábil </label>
+                        <input type="text" class="input" id="descricaoItemContabil" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Valor total R$</label>
+                        <input type="text" class="input" id="valorTotal" disabled="disabled">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Detalhe do documento </label>
+                        <textarea cols="40" rows="2" name="detalhe" id="detalhe" disabled="disabled" style="margin: 8px -2px 8px 0px; height: 115px;">
+                        </textarea>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="">Observação </label>
+                        <textarea cols="40" rows="2" name="observacao" id="observacao" maxlength="30" data-autogrow="false" style="margin: 8px -2px 8px 0px;" onkeyup="limitTextarea(this)">
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-group">
+                <input type="button" data-inline="true" class="btn-primary" value="CANCELAR" onclick="$.mobile.back()">
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="maximum-scale=1,user-scalable=no">
+        
+        <!--<meta http-equiv="refresh" content = "120; url=index.html?ocioso=true">-->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.simpledialog.css" />
+        <link rel="stylesheet" href="css/default.css" type="text/css">
+
+        <title>FIERGS</title>
+    </head>
+    <body>
+        <div class="background-disabled"></div>
+        
+        <section data-role="page" id="pagLogin">
+            <div class="iphone-tollbar"></div>
+            <div class="container">
+                <header>
+                    <img src="./css/images/icons-png/logo.png" class="logo" alt="">
+                </header>
+                <div class="box-login">
+                    <h3>APROVAÇÕES</h3>
+                    <form action="#" id="frmLogin">
+                        <input type="text" class="upperCase" id="usuario" placeholder="USUÁRIO" name="usuario"> 
+                        <input type="password" placeholder="SENHA" id="password" name="password">
+                        <button type="submit" class="btn-login btn-primary">ENTRAR</button>
+                    </form>
+                </div>
+                <p class="msg-logout">Sessão expirada. Efetue o login novamente.</p>
+            </div>
+            <h3 id="versao"> </h3>
+        </section>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/jquery.json-2.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.simpledialog2.js"></script>
+        <script type="text/javascript" src="config.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/itensPendentes.js"></script>
+        <script type="text/javascript" src="js/itemDetalhamento.js"></script>
+    </body>
+</html>
