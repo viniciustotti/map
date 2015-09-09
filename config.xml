@@ -16,7 +16,7 @@
                value="org.apache.cordova.dialogs.Notification" />
         <param name="ios-package" value="CDVNotification" />
     </feature>
-    <icon scr="./icon.png" />
+    <icon scr="icon.png" gap:role="default"/>
     <platform name="ios">
         <!-- iOS 8.0+ -->
         <!-- iPhone 6 Plus  -->
