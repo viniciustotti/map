@@ -45,6 +45,7 @@
         <icon src="img/ios/icon-50.png" width="50" height="50" />
         <icon src="img/ios/icon-50@2x.png" width="100" height="100" />
     </platform>
+	<icon src="./img/android/drawable-ldpi/ic_launcher.png" plataform="android" width="120" height="120" >
     <!--<platform name="android">
         <icon src="./img/android/drawable-ldpi/ic_launcher.png" density="ldpi" />
         <icon src="./img/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
