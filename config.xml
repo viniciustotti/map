@@ -45,14 +45,13 @@
         <icon src="img/ios/icon-50.png" width="50" height="50" />
         <icon src="img/ios/icon-50@2x.png" width="100" height="100" />
     </platform>
-	<icon src="./img/android/drawable-ldpi/ic_launcher.png" plataform="android" width="120" height="120" />
-    <!--<platform name="android">
+	<platform name="android">
         <icon src="./img/android/drawable-ldpi/ic_launcher.png" density="ldpi" />
         <icon src="./img/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
         <icon src="./img/android/drawable-hdpi/ic_launcher.png" density="hdpi" />
         <icon src="./img/android/drawable-xhdpi/ic_launcher.png" density="xhdpi" />
         <icon src="./img/android/drawable-xhdpi/ic_launcher.png" density="xxhdpi" />
         <icon src="./img/android/drawable-xhdpi/ic_launcher.png" density="xxxhdpi" />
-    </platform>-->
+    </platform>
 	
 </widget>
