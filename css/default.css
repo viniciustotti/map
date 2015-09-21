@@ -615,5 +615,5 @@ margin-top: 30px;
 }
 
 .detalhe {
-    height: 3em;
+    min-height: 3em;
 }
