@@ -613,3 +613,7 @@ margin-top: 30px;
 .upperCase{
     text-transform: uppercase;
 }
+
+.detalhe {
+    height: 3em;
+}
